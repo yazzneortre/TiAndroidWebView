@@ -1,22 +1,20 @@
-Appcelerator Titanium Web View
-===========================================
+# Appcelerator Titanium Web View
 
 
-
-Description
--------------
+## Description
 
 Native webview for android 
 
 
-Usage
-------------
+## Usage
 
-> var natwebview = require("metavi.android.wv");
->
-> openButton.addEventListener('click', function() {
->	natwebview.openWeb({
->		url : someurl
->	});
-> });
->
+
+```js
+ var natwebview = require("metavi.android.wv");
+
+ openButton.addEventListener('click', function() {
+    natwebview.openWeb({
+		url : someurl
+	});
+ });
+```
