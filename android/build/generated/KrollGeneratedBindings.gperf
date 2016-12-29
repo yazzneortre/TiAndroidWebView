@@ -1,0 +1,16 @@
+%define lookup-function-name lookupGeneratedInit
+%define class-name NatwebviewBindings
+%{
+
+#include <string.h>
+#include <v8.h>
+#include <KrollBindings.h>
+
+#include "metavi.android.wv.NatwebviewModule.h"
+
+
+%}
+struct titanium::bindings::BindEntry;
+%%
+metavi.android.wv.NatwebviewModule, ::metavi::android::wv::NatwebviewModule::bindProxy, ::metavi::android::wv::NatwebviewModule::dispose
+%%

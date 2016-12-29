@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 0.1
+apiversion: 3
+architectures: armeabi-v7a x86
+description: natwebview
+author: Yazzne Ortre
+license: Specify your license
+copyright: Copyright (c) 2016 by Metavi
+
+# these should not be edited
+name: natwebview
+moduleid: metavi.android.wv
+guid: 96592d9f-2d41-4dfe-a503-0d9494946d18
+platform: android
+minsdk: 6.0.0.GA
